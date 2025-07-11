@@ -35,7 +35,6 @@ const About = () => {
           <br />
           <img src="/top40.png" alt="Top 40 Award" className="award-img" />
         </li>
-        <li>🧠 Strong focus on full-stack development</li>
         <li>🚀 Lifelong learner and problem solver</li>
       </ul>
     </section>
