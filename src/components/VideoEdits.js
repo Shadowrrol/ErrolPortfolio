@@ -5,20 +5,14 @@ const videoProjects = [
   {
     title: 'Valorant Montage',
     description: 'High-paced montage with synced music transitions.',
-    thumbnail: '/vidthumb1.jpg',
-    link: 'https://www.youtube.com/watch?v=your-video-link1',
-  },
-  {
-    title: 'Product Promo Edit',
-    description: 'Edited promotional video for a digital product.',
-    thumbnail: '/vidthumb2.jpg',
-    link: 'https://www.youtube.com/watch?v=your-video-link2',
+    thumbnail: '/valthumb.png',
+    link: 'https://youtu.be/IBpNGhM5YDY',
   },
   {
     title: 'Short Form Edit',
     description: 'TikTok-style vertical edit with subtitles and effects.',
-    thumbnail: '/vidthumb3.jpg',
-    link: 'https://www.youtube.com/watch?v=your-video-link3',
+    thumbnail: '/short.png',
+    link: 'https://youtube.com/shorts/ARm0e-nwGhE',
   },
 ];
 
