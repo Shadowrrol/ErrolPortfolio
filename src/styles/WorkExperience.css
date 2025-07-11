@@ -1,0 +1,111 @@
+.experience-section {
+  padding: 100px 0;
+  background-color: #111;
+  color: #e0e0e0;
+}
+
+.experience-section h2 {
+  font-size: 2.5rem;
+  color: #8e2de2;
+  margin-bottom: 2.5rem;
+  animation: bottomIn 1.2s ease-in-out forwards;
+}
+
+.experience-entry {
+  margin-bottom: 2.5rem;
+  border-left: 4px solid #8e2de2;
+  padding-left: 1rem;
+  animation: bottomIn 1.4s ease-in-out forwards;
+}
+
+.experience-entry h3 {
+  color: #00bcd4;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.company {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 0.2rem;
+}
+
+.date-range {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.8rem;
+}
+
+.experience-entry ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.experience-entry li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.carousel img {
+  width: 320px;               /* Uniform width */
+  height: 180px;              /* Uniform height, ideal for 16:9 ratio */
+  object-fit: cover;          /* Ensures consistent crop */
+  border-radius: 10px;
+  border: 2px solid #8e2de2;
+  box-shadow: 0 0 10px rgba(142, 45, 226, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* marquess */
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 20px;
+}
+
+.opto-marquee {
+  animation: scrollOpto 45s linear infinite;
+}
+
+.mega-marquee {
+  animation: scrollMega 25s linear infinite;
+}
+
+.marquee-img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px solid #8e2de2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(142, 45, 226, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.marquee-img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scrollOpto {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollMega {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* marques */

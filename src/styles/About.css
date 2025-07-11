@@ -1,0 +1,108 @@
+.about-section {
+  padding: 100px 0;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  animation: bottomIn 1.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.about-section h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-bottom: 30px;
+  animation: bottomIn 1.2s ease-in-out forwards;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  animation: bottomIn 1.4s ease-in-out forwards;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.about-section li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  color: #aaa;
+  position: relative;
+  padding-left: 1.2rem;
+  animation: bottomIn 1.4s ease-in-out forwards;
+}
+
+.about-section li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #8e2de2;
+}
+
+/* Reuse your animation */
+@keyframes bottomIn {
+  from {
+    transform: translateY(250px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 428px) {
+  .about-section {
+    padding: 60px 5%;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p,
+  .about-section li {
+    font-size: 1rem;
+  }
+}
+
+/* new */
+.logo-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.school-logo {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px #8e2de2);
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+
+.award-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+/* new */
