@@ -21,8 +21,16 @@ const Hero = () => {
 
       <div className="content">
         <div className="left">
-          <h3 className="typewriter">Hi, I'm <span className="typed-name">Errol Jay Supangan</span></h3>
-          <h1>Web-Dev <span>Video-Edit</span></h1>
+<h3 className="typewriter">
+  <span className="typing-text">
+    Hi, I'm <span className="typed-name">Errol Jay Supangan</span>
+  </span>
+</h3>
+
+          <h1>
+  Web-Dev<br />
+  <span>Video-Edit</span>
+</h1>
           <p>
            I’m a passionate and creative video editor and web developer, known for crafting engaging visual content and building responsive, meaningful web applications. With strong foundations in editing, frontend design, and backend development, I bring real-world ideas to life through visually appealing videos and clean, functional code.
           </p>
